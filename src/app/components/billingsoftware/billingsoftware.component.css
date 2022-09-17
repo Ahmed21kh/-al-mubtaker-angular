@@ -66,11 +66,14 @@ margin: 0 0 50px;
 }
 .our-clients img
 {
-
+    width: 155px;
     filter: alpha(opacity=40);
     margin-top: 20px;
     margin-bottom: 20px;
     border-radius: 50%;
+}
+.our-clients img.ss {
+  margin-top: 32px;
 }
 .our-clients img:hover
 {

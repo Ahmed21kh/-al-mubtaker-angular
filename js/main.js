@@ -5,9 +5,9 @@ $(function () {
   navH = $('.navbar').innerHeight()
   $('  ').height(winH -  navH)
   // nav bar
-  $(' .collapse ul li , a ').on('click', function () {
-    $(this).addClass('active').siblings().removeClass('active')
-  });
+  // $(' .collapse ul li , a ').on('click', function () {
+  //   $(this).addClass('active').siblings().removeClass('active')
+  // });
 // //slider
 //   $('.carousel').carousel({
 //     interval:1000});
@@ -87,7 +87,7 @@ $(function () {
         backToTopButton.classList.add('btnExit')
         setTimeout(function () {
           backToTopButton.style.display = 'none'
-        }, 250)
+        }, 10)
       }
     }
   }
@@ -102,7 +102,7 @@ $(function () {
     const targetPosition = 0
     const startPosition = window.pageYOffset
     const distance = targetPosition - startPosition
-    const duration = 350
+    const duration = 1500
     let start = null
 
     window.requestAnimationFrame(step)

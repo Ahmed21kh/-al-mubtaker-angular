@@ -13,9 +13,9 @@
     </div>
   </div>
 </div> -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-light bg-light" >
   <div class="container">
-    <a class="navbar-brand" href="/" routerLink="/"><img src="img/logo-1.png" width="44px"/><span class="a">Dar Al</span> <span>  Mubtaker</span> </a>
+    <a class="navbar-brand"  routerLink="/"><img src="img/logo-1.png" width="44px"/><span class="a">Dar Al</span> <span>  Mubtaker</span> </a>
     <button
       class="navbar-toggler"
       type="button"
@@ -28,27 +28,27 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="nav-bar">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item active">
-          <a class="nav-link" data-value="" href="#" routerLink="/"
-            >Home <span class="sr-only">(current)</span></a
+      <ul class="navbar-nav nav-tabs ml-auto">
+        <li class="nav-item ">
+          <a class="nav-link"  routerLink="/"
+             routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Home <span class="sr-only">(current)</span></a
           >
         </li>
         <li class="nav-item">
-          <a class="nav-link" data-value="features" href="#" routerLink="/about">About</a>
+          <a class="nav-link"   routerLink="/about" routerLinkActive="active">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" data-value="featured-Work" href="#" routerLink="/products">Products</a>
+          <a class="nav-link"   routerLink="/products" routerLinkActive="active">Products</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link"  href="#" routerLink="/services"> Services </a>
+          <a class="nav-link"   routerLink="/services" routerLinkActive="active"> Services </a>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" data-value="contact-us" href="#" routerLink="/billing">Billing Software</a>
+          <a class="nav-link"   routerLink="/billing" routerLinkActive="active">Billing Software</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" data-value="contact-us" href="#" routerLink="/contact">Contact</a>
+          <a class="nav-link"   routerLink="/contact" routerLinkActive="active">Contact</a>
         </li>
 
 

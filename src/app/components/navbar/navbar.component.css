@@ -86,8 +86,11 @@
 
 
 
- .navbar-nav .active > .nav-link {
+ .navbar-nav  .nav-item  >.nav-link.active {
     color: #ed1d24
+ }
+ a.active{
+  color: #ed1d24;
  }
 
   /* end nav bar */

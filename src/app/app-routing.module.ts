@@ -8,7 +8,7 @@ import { ProductsComponent } from './components/products/products.component';
 import { ServicesComponent } from './components/services/services.component';
 
 const routes: Routes = [
-  {path:"" , component:HomeComponent},
+  {path:"" , pathMatch:'full', component:HomeComponent},
   {path:"about" , component:OverviweComponent},
   {path:"products" , component:ProductsComponent},
   {path:"services" , component:ServicesComponent},
